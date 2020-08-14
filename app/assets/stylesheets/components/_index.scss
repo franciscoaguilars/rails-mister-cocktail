@@ -2,3 +2,30 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+
+.jumbotron {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.display-4{
+    color: white;
+    font-weight: 300;
+}
+
+.jumbo-text{
+    color:white;
+    font-size: large;;
+}
+
+.card-img-top{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

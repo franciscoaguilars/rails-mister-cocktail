@@ -11,6 +11,13 @@
   </head>
 
   <body>
+
+    <div class ="navbar navbar-light bg-light">
+      <%= link_to "Buen beber", cocktails_path, class: "btn btn-inverse" %>
+
+      <%= link_to "Add a new Cocktail", new_cocktail_path, class: "btn btn-light" %>
+    </div>
+
     <%= yield %>
   </body>
 </html>

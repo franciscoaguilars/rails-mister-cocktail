@@ -1,0 +1,22 @@
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Buen beber</h1>
+      <p class = "jumbo-text blockquote-footer">Cocktails that will leave you more dizzy than that 'Yield' keyword.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mt-3 justify-content-md-center">
+        <% @cocktails.each do |cocktail| %>
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                <div class="card shadow  mb-5 bg-white rounded" style="width: 12rem;">
+                    <img class="card-img-top" src="<%=cocktail.image_url %>" alt="Cocktail image">
+                    <div class="card-body text-center">
+                        <p class="card-text"><%= cocktail.name %></p>
+                     </div>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</div>
